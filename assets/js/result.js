@@ -238,7 +238,11 @@ window.onload = function(){
         result.textContent = "Mohon Maaf Anda"
         statusAcc.textContent = "Tidak Diterima"
         overlay.classList.add("rejected-overlay")
-    }else{
+    }else if (nim == '2004351'){
+        overlay.classList.add("accepted-overlay")
+        kema.textContent = "NGAPAIN AYII, UDAH LULUS AJAA"
+    }
+    else{
         overlay.classList.add("rejected-overlay")
         kema.textContent = "Kamu nakal ya coba coba"
     }
