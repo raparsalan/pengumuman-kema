@@ -230,7 +230,7 @@ window.onload = function(){
         greetings.textContent = "Hai! " + nameAccepted[idx]
         result.textContent = "Selamat Anda"
         statusAcc.textContent = "Diterima"
-        overlay.classList.add("section-overlay")
+        overlay.classList.add("accepted-overlay")
     }else if (rejected.indexOf(nim) >= 0) {
         idx = rejected.indexOf(nim)
         
@@ -238,5 +238,8 @@ window.onload = function(){
         result.textContent = "Mohon Maaf Anda"
         statusAcc.textContent = "Tidak Diterima"
         overlay.classList.add("rejected-overlay")
+    }else{
+        overlay.classList.add("rejected-overlay")
+        kema.textContent = "Kamu nakal ya coba coba"
     }
 };
