@@ -220,7 +220,7 @@ document.getElementById("form-nim").addEventListener("submit", function(event) {
     let nim = document.getElementById("nim").value
     console.log(nim)
 
-    if (accepted.indexOf(nim) >= 0 || rejected.indexOf(nim) >= 0) {
+    if (accepted.indexOf(nim) >= 0 || rejected.indexOf(nim) >= 0 || nim == "2004351") {
         window.location.href = "hasil.html?nim="+nim;
     }else{
         notfound.textContent = "NIM salah atau tidak terdaftar"
