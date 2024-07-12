@@ -88,7 +88,7 @@ let accepted = ["2304035",
     "2103864",
     "2207163",
     "2308043",
-    "2207163",
+    "2200458",
     "2207045",
     "2304344",
     "2303380",
@@ -223,6 +223,8 @@ document.getElementById("form-nim").addEventListener("submit", function(event) {
     if (accepted.indexOf(nim) >= 0 || rejected.indexOf(nim) >= 0 || nim == "2004351") {
         window.location.href = "hasil.html?nim="+nim;
     }else{
+        let valueNim = document.getElementById("nim")
+        valueNim.va
         notfound.textContent = "NIM salah atau tidak terdaftar"
     }
 });
