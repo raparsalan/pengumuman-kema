@@ -115,6 +115,7 @@ let namaPengurus = document.getElementById("nama-ann")
 let nimPengurus = document.getElementById("nim-ann")
 let greetings = document.getElementById("greetings")
 let bidangPengurus = document.getElementById("bidang-ann")
+let welcome = document.getElementById("welcome-ann")
 let profilePic = document.getElementById("profile-pic")
 let urlParams = new URLSearchParams(window.location.search);
 let id = urlParams.get('id');
@@ -132,7 +133,8 @@ window.onload = function(){
             profilePic.src ="images/profile/"+ person.img
             bidangPengurus.textContent = _bidang
         }else{
-            greetings.textContent = "DIBILANG JANGAN DIBUKA DULUAN"
+            greetings.textContent = "BELUM BOLEH DIBUKAA YAA.."
+            welcome.textContent = ""
         }
     }
     console.log(id)
