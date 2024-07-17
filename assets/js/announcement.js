@@ -119,7 +119,7 @@ let welcome = document.getElementById("welcome-ann")
 let profilePic = document.getElementById("profile-pic")
 let urlParams = new URLSearchParams(window.location.search);
 let id = urlParams.get('id');
-let unboxingDate = new Date(2024,6,17,14,0)
+let unboxingDate = new Date(2024,6,17,13,40)
 
 window.onload = function(){
     let person = pengurus.find(p => p.id == id);
