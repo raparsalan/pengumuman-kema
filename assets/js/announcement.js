@@ -97,7 +97,7 @@ let pengurus = [
     {id:97, nim: "2204725", nama :"Salsabila Yasfa Khairunnisa", idBidang:9, img:"97.png"},
     {id:98, nim: "2201056", nama :"Silviani Despitasari", idBidang:9, img:"98.png"},
     {id:99, nim: "2101958", nama :"Syifa Qolbiah", idBidang:9, img:"99.png"},
-    {id:100, nim: "2101958", nama :"Bintang Longtext Cahyana", idBidang:10, img:"99.png"},
+    {id:100, nim: "2101958", nama :"Bintang Longtext Cahyana", idBidang:10, img:"100.png"},
 ]
 let bidang = [
     "Bidang Kesekretariatan Umum",
